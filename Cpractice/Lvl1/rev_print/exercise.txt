@@ -1,0 +1,21 @@
+Assignment name  : rev_print
+Expected files   : rev_print.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that takes a string and displays the string in reverse
+order followed by the newline.
+Its prototype is constructed like this : 
+  char *ft_rev_print (char *str)
+It must return its argument
+
+Examples:
+
+$> ./a.out "abc" | cat -e
+cba$
+
+$> ./a.out "reve" | cat -e
+ever$
+
+$> ./a.out | cat -e
+$
