@@ -1,0 +1,12 @@
+Assignment name  : ft_advanced_sort_string_tab
+Expected files   : ft_advanced_sort_string_tab.c
+Allowed functions: none
+--------------------------------------------------------------------------------
+
+Create the function ft_advanced_sort_string_tab which sorts, depending on the
+return of the function given as argument
+The sorting will be performed by exchanging the array’s pointers.
+tab will be null terminated
+
+Here’s how it should be prototyped :
+void	ft_advanced_sort_string_tab(char **tab, int(*cmp)(char *, char *));
